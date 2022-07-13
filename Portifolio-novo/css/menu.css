@@ -53,8 +53,8 @@ header ul li a::after {
     height: 1px;
     bottom: -4px;
     left: 0;
-    background: -webkit-gradient(linear, right top, left top, from(#6610f2), to(#09090A));
-    background: linear-gradient(270deg, #6610f2 0%, #09090A 100%);
+    background: -webkit-gradient(linear, right top, left top, from(#c6579b), to(#09090A));
+    background: linear-gradient(270deg, #c6579b 0%, #09090A 100%);
     -webkit-transform-origin: bottom right;
             transform-origin: bottom right;
     -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
@@ -85,8 +85,8 @@ header ul li.active a::after {
     height: 1px;
     bottom: -4px;
     left: 0;
-    background: -webkit-gradient(linear, right top, left top, from(#6610f2), to(#f2f7ff));
-    background: linear-gradient(270deg, #6610f2 0%, #f2f7ff 100%);
+    background: -webkit-gradient(linear, right top, left top, from(#c6579b), to(#f2f7ff));
+    background: linear-gradient(270deg, #c6579b 0%, #f2f7ff 100%);
     -webkit-transform-origin: bottom right;
             transform-origin: bottom right;
     -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
@@ -227,7 +227,7 @@ header ul li.active a::after {
         border: none;
         background: none;
         cursor: pointer;
-        color: #8129CF;
+        color: #c6579b;
         gap: 0.5rem;
         margin-top: 18px;
         z-index: 2;
@@ -242,7 +242,7 @@ header ul li.active a::after {
         display: block;
         width: 20px;
         height: 2px;
-        background: #8129CF;
+        background: #c6579b;
         margin-top: 5px;
         transition: 0.3s;
         position: relative;
@@ -252,11 +252,11 @@ header ul li.active a::after {
     }
     #nav.active #hamburger::before {
         transform: rotate(135deg);
-        color: #8129CF;
+        color: #c6579b;
     }
     #nav.active #hamburger::after {
         transform: rotate(-135deg);
-        color: #8129CF;
+        color: #c6579b;
         top: -7px;
     }
     .toggle img {

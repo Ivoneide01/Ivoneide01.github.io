@@ -57,14 +57,14 @@
 
 .img-container:hover .boxImg {
     opacity: 1;
-    background: #8129CF;
+    background: #c6579b;
 }
 
 .zoom-text {
     width: 80px;
     height: 80px;
-    box-shadow: 0 0 0 linear-gradient(90deg, #9900d3, #5429CF);
-    background: linear-gradient(30deg, #9900d3, #5429CF);
+    box-shadow: 0 0 0 linear-gradient(90deg, #c6579b, #e24646);
+    background: linear-gradient(30deg, #c6579b, #e24646);
     border-radius: 50%;
     display: flex;
     justify-content: center;

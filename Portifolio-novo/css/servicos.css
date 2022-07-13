@@ -80,12 +80,12 @@ p {
 
 #servicos .box-servicos .box:hover {
     transform: translateY(-50px);
-    background: linear-gradient(90deg, #8129CF, #5429CF);
+    background: linear-gradient(90deg, #c6579b, #c6579b);
 }
 
 .sec.dark #servicos .box-servicos .box:hover {
     transform: translateY(-50px);
-    background: linear-gradient(90deg, #8129CF, #5429CF);
+    background: linear-gradient(90deg, #c6579b, #c6579b);
 }
 
 .sec.dark #servicos .box-servicos .box {
@@ -122,19 +122,18 @@ p {
 
 /* 
 #servicos .box-servicos .box .icon {
-    box-shadow: 0 0 0 linear-gradient(90deg, #8129CF, #5429CF);
-    background: linear-gradient(90deg, #8129CF, #5429CF);
+    box-shadow: 0 0 0 linear-gradient(90deg, #c6579b, #c6579b);
+    background: linear-gradient(90deg, #c6579b, #c6579b);
 } */
 
 
 /* #servicos .box-servicos .box:hover .icon {
-    box-shadow: 0 0 0 400px #8129CF;
+    box-shadow: 0 0 0 400px #c6579b;
 } */
 
-
-/* .sec.dark #servicos .box-servicos .box:hover .icon {
+ .sec.dark #servicos .box-servicos .box:hover .icon {
     color: #f2f7ff;
-} */
+} 
 
 #servicos .box-servicos .box .content {
     position: relative;
